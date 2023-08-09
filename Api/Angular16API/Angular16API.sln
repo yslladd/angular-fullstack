@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular16API", "Angular16API.csproj", "{DB6336BD-16B7-4B7F-9D89-B4F97C21C3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{464DBE49-CEC0-43AD-9A88-A2451F0F8F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C397226E-423F-4290-9566-E9CDB8493539}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular16UI", "..\Angular16UI\", "{9E5AEC0E-B7EF-495E-A367-0C3BE3323C6C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_37768"
+		Debug.AspNetCompiler.PhysicalPath = "..\Angular16UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_37768\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_37768"
+		Release.AspNetCompiler.PhysicalPath = "..\Angular16UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_37768\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "37768"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB6336BD-16B7-4B7F-9D89-B4F97C21C3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6336BD-16B7-4B7F-9D89-B4F97C21C3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6336BD-16B7-4B7F-9D89-B4F97C21C3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6336BD-16B7-4B7F-9D89-B4F97C21C3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5AEC0E-B7EF-495E-A367-0C3BE3323C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5AEC0E-B7EF-495E-A367-0C3BE3323C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5AEC0E-B7EF-495E-A367-0C3BE3323C6C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5AEC0E-B7EF-495E-A367-0C3BE3323C6C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB6336BD-16B7-4B7F-9D89-B4F97C21C3C9} = {464DBE49-CEC0-43AD-9A88-A2451F0F8F4A}
+		{9E5AEC0E-B7EF-495E-A367-0C3BE3323C6C} = {C397226E-423F-4290-9566-E9CDB8493539}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA25624-5120-49C5-B92D-D98CC277D27A}
+	EndGlobalSection
+EndGlobal
